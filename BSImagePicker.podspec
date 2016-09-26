@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'UIKit', 'Photos'
   s.dependency 'UIImageViewModeScaleAspect', '~> 1.3'
-  s.dependency 'BSGridCollectionViewLayout', '1.2.0-swift23'
+  s.dependency 'BSGridCollectionViewLayout', "~> 1.1.0"
 end
